@@ -1,0 +1,19 @@
+.dockerignore
+# .git/
+# .foo/*
+# **/*.swp
+# **/*.txt
+# !needthistextfile.txt
+# Git
+.git
+.gitignore
+
+# Docker configuration
+Dockerfile
+# Makefile
+docker-compose.yml
+
+# NPM dependencies
+node_modules
+
+# Other
