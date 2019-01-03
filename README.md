@@ -1,3 +1,3 @@
 # NodeJS
 
-This NodeJS application is a slightly more optimized.
+Authentication micro service - creates and checks JWT.
