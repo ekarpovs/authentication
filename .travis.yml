@@ -1,5 +1,11 @@
 language: node_js
 
+# whitelist
+branches:
+  only:
+    - master
+    - CICD
+
 services:
   - docker
 
