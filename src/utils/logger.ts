@@ -3,7 +3,7 @@ import { prod } from '../config/secrets';
 
 const logger = createLogger({
     transports: [
-        new (transports.Console)({ level: process.env.NODE_ENV === 'production' ? 'error' : 'debug' }),
+        new (transports.Console)({ level: prod ? 'error' : 'debug' }),
         new (transports.File)({ filename: 'debug.log', level: 'debug'})
     ]
 });
