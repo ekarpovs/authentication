@@ -1,5 +1,5 @@
 import { createLogger, transports } from 'winston';
-import { prod } from '../config/secrets';
+import { prod } from '../config/environment';
 
 const logger = createLogger({
     transports: [
