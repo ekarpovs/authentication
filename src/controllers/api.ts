@@ -5,8 +5,8 @@ import passport from 'passport';
 import { IVerifyOptions } from 'passport-local';
 import { default as User, UserModel } from '../models/user';
 
+import { JWT_DEV_SECRET } from '../config/environment';
 import '../config/passport';
-import { JWT_DEV_SECRET } from '../config/secrets';
 
 import jwt from 'jsonwebtoken';
 

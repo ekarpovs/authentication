@@ -1,7 +1,7 @@
 import bluebird from 'bluebird';
 import mongoose from 'mongoose';
 
-import { MONGODB_URI } from '../config/secrets';
+import { MONGODB_URI } from '../config/environment';
 
 const connectToMongoDb = () => {
   const mongoUrl = MONGODB_URI;
